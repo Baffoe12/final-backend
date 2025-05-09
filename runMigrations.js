@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize');
 const { Umzug, SequelizeStorage } = require('umzug');
 
 async function runMigrations() {
-  const sequelize = new Sequelize('postgresql://safedrive_fxzi_user:0cdeIgId9jNv4sgLgcWK0lmgKyr4GwWT@dpg-d0663gqli9vc73e1lum0-a.oregon-postgres.render.com/safedrive_fxzi', {
+  const sequelize = new Sequelize('postgresql://safedrive_db_ab9i_user:jjs6jpgKSij0Xn26i8deJGzKr103hGTn@dpg-d0efesidbo4c738lejqg-a.oregon-postgres.render.com/safedrive_db_ab9i', {
     dialect: 'postgres',
     dialectOptions: {
       ssl: {
