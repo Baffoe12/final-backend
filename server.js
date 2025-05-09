@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+const corsMiddleware = require('./middleware/cors');
 const { Sequelize, Op } = require('sequelize');
 const path = require('path');
 const bodyParser = require('body-parser');
